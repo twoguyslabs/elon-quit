@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1e47aa; /* blue background */
+  color: #ffffff; /* white text */
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bangers', cursive;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.section-heading {
+  font-family: 'Bangers', cursive;
+  font-size: 3.5rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px 0px #121212;
+}
+
+.section-tag {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .text-stroke {
+    -webkit-text-stroke: 2px #121212;
+    text-stroke: 2px #121212;
+  }
+}
+
+/* Animation for Tokenomics ticker */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+}
+
+/* Button Styles */
+.angry-button {
+  @apply bg-accent-red text-white font-bold py-3 px-8 rounded-lg hover:bg-accent-darkRed transition-colors;
+  box-shadow: 3px 3px 0px #121212;
+  transform: skewX(-5deg);
+}
+
+.angry-button:hover {
+  transform: skewX(-5deg) scale(1.05);
+}
+
+.angry-button:active {
+  transform: skewX(-5deg) scale(0.98);
+  box-shadow: 1px 1px 0px #121212;
+}
+
+/* Card styles */
+.angry-card {
+  @apply bg-accent-darkBlue p-6 rounded-lg border-2 border-black;
+  box-shadow: 5px 5px 0px #121212;
+}
+
+/* Additional custom styling as needed */
