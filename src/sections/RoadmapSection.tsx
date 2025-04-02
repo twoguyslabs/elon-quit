@@ -1,13 +1,12 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { FaFire, FaBomb, FaSkull, FaExclamationTriangle } from "react-icons/fa";
 
-type RoadmapStageProps = {
+interface RoadmapStageProps {
   number: number;
   title: string;
   items: string[];
   icon: React.ReactNode;
-};
+}
 
 const RoadmapStage = ({ number, title, items, icon }: RoadmapStageProps) => {
   return (
@@ -67,28 +66,6 @@ const RoadmapSection = () => {
       ],
       icon: <FaBomb size={14} />,
     },
-    {
-      number: 3,
-      title: "DOMINATION",
-      items: [
-        "Crush top 100 market cap",
-        "Launch $QUIT DEX with lowest fees ever",
-        "Strategic partnerships with other angry projects",
-        "Decentralized governance for the community",
-      ],
-      icon: <FaSkull size={14} />,
-    },
-    {
-      number: 4,
-      title: "TAKEOVER",
-      items: [
-        "Destroy all competition",
-        "Launch $QUIT chain",
-        "Aggressive expansion strategy",
-        "Make history as angriest token ever",
-      ],
-      icon: <FaExclamationTriangle size={14} />,
-    },
   ];
 
   return (
@@ -104,7 +81,7 @@ const RoadmapSection = () => {
           <p className="mt-2 text-white/80">We don't follow rules. We make them.</p>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {roadmapData.map((stage, index) => (
             <RoadmapStage
               key={index}

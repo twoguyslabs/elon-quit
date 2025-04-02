@@ -19,12 +19,13 @@ const HeroSection = () => {
         <div className="flex flex-col items-center md:flex-row">
           {/* Left side content */}
           <div className="mb-10 w-full md:mb-0 md:w-1/2">
-            <div className="section-tag mb-3">#ANGRIEST TOKEN</div>
+            <div className="section-tag mb-3"># Elon Finally QUIT – And So Should You!</div>
             <h1 className="text-stroke mb-4 font-comic text-6xl text-white md:text-8xl lg:text-9xl">
               $QUIT
             </h1>
             <p className="mb-8 max-w-md text-sm font-medium text-white md:text-base">
-              The token that's sick of all the bullsh*t in crypto. We're not here to play nice!
+              After realizing the Cybertruck was just a stainless-steel disaster, Elon QUIT Tesla,
+              QUIT crypto, and left us with his final legacy… the $QUIT token!
             </p>
 
             <div className="mb-6 flex flex-col gap-4 sm:flex-row">
@@ -90,7 +91,7 @@ const HeroSection = () => {
           </h2>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <motion.a
+            {/* <motion.a
               href="https://www.binance.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -99,36 +100,16 @@ const HeroSection = () => {
               whileTap={{ scale: 0.95 }}
             >
               Binance
-            </motion.a>
+            </motion.a> */}
             <motion.a
-              href="https://www.kucoin.com/"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="rotate-1 transform rounded-lg border-2 border-black bg-accent-red px-6 py-2 font-bold text-white"
-              whileHover={{ scale: 1.05, rotate: -1 }}
+              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              KuCoin
-            </motion.a>
-            <motion.a
-              href="https://www.gate.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="-rotate-1 transform rounded-lg border-2 border-black bg-accent-red px-6 py-2 font-bold text-white"
-              whileHover={{ scale: 1.05, rotate: 1 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Gate.io
-            </motion.a>
-            <motion.a
-              href="https://www.mexc.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rotate-1 transform rounded-lg border-2 border-black bg-accent-red px-6 py-2 font-bold text-white"
-              whileHover={{ scale: 1.05, rotate: -1 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              MEXC
+              Coming Soon to top CEX and DEX
             </motion.a>
           </div>
 
