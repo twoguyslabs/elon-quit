@@ -5,7 +5,7 @@ import quitIllustation from "../assets/quit-illustration.png";
 
 const HeroSection = () => {
   const [copied, setCopied] = useState(false);
-  const tokenAddress = "0xQU17271965dd16442E59d40670FaF5eBB142E4";
+  const tokenAddress = "COMING SOON";
 
   const handleCopyClick = () => {
     navigator.clipboard.writeText(tokenAddress);
@@ -109,7 +109,7 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Coming Soon to top CEX and DEX
+              Coming Soon to OctaSwap
             </motion.a>
           </div>
 

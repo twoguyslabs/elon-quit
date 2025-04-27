@@ -21,7 +21,7 @@ module.exports = {
           foreground: "hsl(var(--popover-foreground))",
         },
         primary: {
-          DEFAULT: "#1e47aa", // blue background
+          DEFAULT: "#1A1A1A", // subtle black background
           foreground: "#ffffff", // white text
         },
         secondary: {
@@ -71,10 +71,10 @@ module.exports = {
         },
       },
       fontFamily: {
-        'bricola': ['Bricolage Grotesque', 'sans-serif'],
-        'dela': ['Dela Gothic One', 'sans-serif'],
-        'comic': ['Bangers', 'cursive'],
-        'sans': ['Poppins', 'Arial', 'sans-serif'],
+        bricola: ["Bricolage Grotesque", "sans-serif"],
+        dela: ["Dela Gothic One", "sans-serif"],
+        comic: ["Bangers", "cursive"],
+        sans: ["Poppins", "Arial", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
@@ -86,36 +86,36 @@ module.exports = {
           to: { height: "0" },
         },
         "pulse-angry": {
-          '0%, 100%': { transform: 'scale(1)' },
-          '50%': { transform: 'scale(1.05)' },
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.05)" },
         },
-        "shake": {
-          '0%, 100%': { transform: 'translateX(0)' },
-          '10%, 30%, 50%, 70%, 90%': { transform: 'translateX(-5px)' },
-          '20%, 40%, 60%, 80%': { transform: 'translateX(5px)' },
-        }
+        shake: {
+          "0%, 100%": { transform: "translateX(0)" },
+          "10%, 30%, 50%, 70%, 90%": { transform: "translateX(-5px)" },
+          "20%, 40%, 60%, 80%": { transform: "translateX(5px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulse-angry": "pulse-angry 2s infinite",
-        "shake": "shake 0.5s infinite",
+        shake: "shake 0.5s infinite",
       },
       container: {
         center: true,
         padding: {
-          DEFAULT: '1rem',
-          sm: '2rem',
-          lg: '4rem',
-          xl: '5rem',
-          '2xl': '6rem',
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
         },
         screens: {
-          sm: '640px',
-          md: '768px',
-          lg: '1024px',
-          xl: '1280px',
-          '2xl': '1400px',
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
+          xl: "1280px",
+          "2xl": "1400px",
         },
       },
     },
