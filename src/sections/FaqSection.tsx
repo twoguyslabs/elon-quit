@@ -117,7 +117,7 @@ const FaqSection = () => {
 
         <div className="mt-16 text-center">
           <motion.a
-            href="#rage"
+            href="https://sale.elonquit.com/"
             className="angry-button inline-flex items-center gap-2"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

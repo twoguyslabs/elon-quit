@@ -5,7 +5,7 @@ import quitIllustation from "../assets/quit-illustration.png";
 
 const HeroSection = () => {
   const [copied, setCopied] = useState(false);
-  const tokenAddress = "COMING SOON";
+  const tokenAddress = "0xa3F829501eb03A0A059fEFA21BEae95786c3693b";
 
   const handleCopyClick = () => {
     navigator.clipboard.writeText(tokenAddress);
@@ -30,7 +30,7 @@ const HeroSection = () => {
 
             <div className="mb-6 flex flex-col gap-4 sm:flex-row">
               <motion.a
-                href="#buy"
+                href="https://sale.elonquit.com/"
                 className="angry-button inline-flex items-center justify-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 <FaPowerOff /> RAGE BUY NOW
               </motion.a>
               <motion.a
-                href="#rage"
+                href="https://t.me/elonquitchannel"
                 className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-white px-6 py-2 font-medium text-white"
                 whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.1)" }}
                 whileTap={{ scale: 0.95 }}

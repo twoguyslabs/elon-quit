@@ -75,7 +75,7 @@ const AboutSection = () => {
 
             <div className="mt-8">
               <motion.a
-                href="#buy"
+                href="https://sale.elonquit.com/"
                 className="angry-button inline-block"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

@@ -96,7 +96,7 @@ const RoadmapSection = () => {
         {/* Action button */}
         <div className="mt-12 flex justify-center">
           <motion.a
-            href="#buy"
+            href="https://sale.elonquit.com/"
             className="angry-button inline-flex items-center gap-2"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

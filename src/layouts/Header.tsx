@@ -56,7 +56,7 @@ const Header = () => {
 
         {/* Buy Button */}
         <motion.a
-          href="#buy"
+          href="https://sale.elonquit.com/"
           className="angry-button px-5 py-2 text-sm"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
