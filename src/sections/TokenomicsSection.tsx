@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaFire, FaUsers, FaBriefcase, FaRocket } from "react-icons/fa";
+import tokenomicsImg from "../assets/tokenomics-img.png"
 
 const TokenomicsSection = () => {
   const tokenomicsData = [
@@ -46,7 +47,7 @@ const TokenomicsSection = () => {
         <div className="flex flex-col items-center justify-center gap-12 lg:flex-row">
           {/* Chart visualization - Angry style */}
           <div className="flex w-full justify-center lg:w-1/2">
-            <img src="/src/assets/tokenomics-img.png" alt="Tokenomics" className="w-full max-w-md" />
+            <img src={tokenomicsImg} alt="Tokenomics" className="w-full max-w-md" />
           </div>
 
           {/* Right side - Description */}
