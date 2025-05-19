@@ -61,7 +61,6 @@ const RoadmapSection = () => {
       items: [
         "Major CEX listings with fury",
         "Marketing blitz to spread the rage",
-        "Launch Rage Staking with epic APY",
         "Community events for the angriest holders",
       ],
       icon: <FaBomb size={14} />,

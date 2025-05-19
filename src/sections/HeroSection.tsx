@@ -5,7 +5,7 @@ import quitIllustation from "../assets/quit-illustration.png";
 
 const HeroSection = () => {
   const [copied, setCopied] = useState(false);
-  const tokenAddress = "0xa3F829501eb03A0A059fEFA21BEae95786c3693b";
+  const tokenAddress = "0x426A9f960F76F3F5F64D68735762e4e1b8C56208";
 
   const handleCopyClick = () => {
     navigator.clipboard.writeText(tokenAddress);

@@ -46,24 +46,7 @@ const TokenomicsSection = () => {
         <div className="flex flex-col items-center justify-center gap-12 lg:flex-row">
           {/* Chart visualization - Angry style */}
           <div className="flex w-full justify-center lg:w-1/2">
-            <div className="grid w-full max-w-md grid-cols-2 gap-4">
-              {tokenomicsData.map((segment, index) => (
-                <motion.div
-                  key={index}
-                  className="angry-card flex flex-col items-center p-6 text-center"
-                  whileHover={{ scale: 1.05 }}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                >
-                  <div className="mb-3 text-3xl text-accent-red">{segment.icon}</div>
-                  <div className="font-comic text-3xl text-white">{segment.percentage}%</div>
-                  <div className="mt-2 text-sm font-medium uppercase text-white/70">
-                    {segment.name}
-                  </div>
-                </motion.div>
-              ))}
-            </div>
+            <img src="/src/assets/tokenomics-img.png" alt="Tokenomics" className="w-full max-w-md" />
           </div>
 
           {/* Right side - Description */}
@@ -97,7 +80,7 @@ const TokenomicsSection = () => {
                   <FaRocket size={14} />
                 </div>
                 <div>
-                  <span className="font-bold text-white">15% Marketing:</span>
+                  <span className="font-bold text-white">25% Development:</span>
                   <p className="text-sm text-white/70">
                     Spreading the rage far and wide. We're not quiet about our mission.
                   </p>
@@ -109,7 +92,7 @@ const TokenomicsSection = () => {
                   <FaFire size={14} />
                 </div>
                 <div>
-                  <span className="font-bold text-white">10% Airdrop:</span>
+                  <span className="font-bold text-white">15% Marketing:</span>
                   <p className="text-sm text-white/70">
                     Airdropping 10% of the supply to the community.
                   </p>
@@ -121,7 +104,7 @@ const TokenomicsSection = () => {
                   <FaBriefcase size={14} />
                 </div>
                 <div>
-                  <span className="font-bold text-white">10% Team:</span>
+                  <span className="font-bold text-white">10% Burn:</span>
                   <p className="text-sm text-white/70">
                     Team members will receive 10% of the supply. Fully vested.
                   </p>
