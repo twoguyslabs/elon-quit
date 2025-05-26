@@ -39,11 +39,11 @@ const HowToBuySection = () => {
               </div>
 
               <h3 className="mb-4 flex items-center gap-2 font-comic text-xl text-white md:text-2xl">
-                <FaExclamation className="text-accent-red" /> BUY ETH OR BNB
+                <FaExclamation className="text-accent-red" /> BUY SOL
               </h3>
 
               <p className="text-sm text-white/80">
-                Buy BNB from an exchange and send it to your wallet. We're on BSC because we're not
+                Buy SOL from an exchange and send it to your wallet. We're on Solana because we're not
                 maximalists - we're RAGE-imalists. More chains coming soon!
               </p>
             </motion.div>
