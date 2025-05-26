@@ -56,7 +56,7 @@ const Header = () => {
 
         {/* Buy Button */}
         <motion.a
-          href="https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x426A9f960F76F3F5F64D68735762e4e1b8C56208"
+          href="https://pump.fun/coin/HQDVsRB7E3iHpSeErCEUhcE8RthZA3fFGPa3Zcsjpump"
           className="angry-button px-5 py-2 text-sm"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

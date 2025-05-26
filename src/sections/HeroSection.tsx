@@ -5,7 +5,7 @@ import quitIllustation from "../assets/quit-illustration.png";
 
 const HeroSection = () => {
   const [copied, setCopied] = useState(false);
-  const tokenAddress = "Coming Soon on PumpFun";
+  const tokenAddress = "HQDVsRB7E3iHpSeErCEUhcE8RthZA3fFGPa3Zcsjpump";
 
   const handleCopyClick = () => {
     navigator.clipboard.writeText(tokenAddress);
@@ -30,7 +30,7 @@ const HeroSection = () => {
 
             <div className="mb-6 flex flex-col gap-4 sm:flex-row">
               <motion.a
-                href="https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x426A9f960F76F3F5F64D68735762e4e1b8C56208"
+                href="https://pump.fun/coin/HQDVsRB7E3iHpSeErCEUhcE8RthZA3fFGPa3Zcsjpump"
                 className="angry-button inline-flex items-center justify-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -109,7 +109,7 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Coming Soon to OctaSwap
+              Coming Soon to PumpFun
             </motion.a>
           </div>
 
